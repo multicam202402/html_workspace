@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <!-- 스타일 시트 코드를 외부 파일로 빼놓고 링크로 가져오는
+    방식을 가리켜  external 방식이라 함 -->
+    <link rel="stylesheet" href="../css/member.css">
+</head>
+<body>
+    <table width="600px" border="1px" align="center">
+        <tr>
+            <td colspan="2" align="center">회원가입</td>
+        </tr>
+        <tr>
+            <td width="150px">ID</td>
+            <td>
+                <input class="inputStyle" type="text" placeholder="아이디를 4자이상 입력...">
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+                <input type="password" class="inputStyle">
+            </td>
+        </tr>
+        <tr>
+            <td>이메일</td>
+            <td>
+                <input type="text" class="inputStyle">@
+                <select id="server">
+                    <option>naver.com</option>
+                    <option>gmail.com</option>
+                    <option>daum.net</option>
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td>메일수신</td>
+            <td>
+                예 <input type="radio" name="receive">
+                아니오 <input type="radio" name="receive">
+            </td>
+        </tr>
+        <tr>
+            <td>보유기술</td>
+            <td class="skill">
+                java <input type="checkbox">
+                jsp <input type="checkbox">
+                spring <input type="checkbox">
+                mybatis <input type="checkbox">
+                jquery <input type="checkbox">
+                oracle <input type="checkbox">
+                머신러닝 <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>사진 첨부</td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <td>가입 인사말</td>
+            <td>
+                <textarea></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <button>회원가입</button>
+                <button>로그인</button>
+            </td>
+        </tr>
+       
+    </table>
+</body>
+</html>

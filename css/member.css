@@ -1,0 +1,46 @@
+        /*아이디, 패스워드, 이메일ID 는 노란색배경 처리를 하되
+        나만의 스타일을 적용한 코드영역 정의한다 = css 클래스
+        클래스는 앞에 점으로 표기...
+        */        
+        .inputStyle{
+            background:yellow;
+            border:1px solid orange;
+        }
+
+        /* 문서내의 모든 td에 대한 css */
+        td{
+            font-size:9px;
+        }
+
+        /* 어느 요소가 될지는 모르지만, 추후 아래의 클래스를 적용할때
+            css 효과를 발생하게 됨..즉 아직은 타겟이 없다..
+        */
+        .skill{
+            color:red;
+            font-weight: bold;
+        }   
+
+        /*문서내의 textarea의 너비를 98%로 지정*/
+        textarea{
+            width: 98%;
+            height: 250px;
+            background-color: aqua;
+            color:#FFFFFF;   /*RGB*/
+        }
+
+        table{
+            border:10px dotted #cccccc;
+        }
+
+        /* 문서내의 server 라는 아이디를 갖는 요소에 대해... */
+        #server{
+            background-color: blue;
+            color:skyblue;
+            font-size:16px;
+            font-weight: bold;
+            width:200px;
+        }
+        button{
+            background-color: green;
+            border:2px solid red;            
+        }

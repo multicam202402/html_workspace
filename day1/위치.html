@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css에서 모든 태그는 위치속성을 가진 것으로 보고 
+        css에서 지원하는 태그의 위치 속성은 다음과 같은 것들이 있다..
+        relative : 다른 태그와의 관계에 의해 그 위치가 결정되는 속성(상대위치) 
+        absolute : 부모태그를 기준으로 한 위치 (절대위치)
+        */
+        img{
+            border:2px solid red;
+
+            position:absolute; /*이미지가 부모를 기준으로 위치를 표현*/        
+            left:500px; /*부모의 좌측 벽으로부터 0픽셀*/
+            top:100px; /*위쪽 벽으로부터 얼마만큼 떨어져있는지를 표현 top씀*/ 
+        }
+    </style>
+
+</head>
+<body>
+    <img src="../images/apple.webp">        
+</body>
+</html>
+
+
+
+
+

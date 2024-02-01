@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 이 영역은 html 태그 영역이 아니라,  css 영역이다 
+            style 태그 안에 작성하는 css 방식을 internal 방식이라 한다
+
+            css 문장 형식 (systax)
+            (누구)를 (어떻게 할지)
+            누구 자리에 올 주체를 가리켜 선택자라 한다
+        */
+
+        /* 문서내의 button 태그에 대해 일괄적으로 분홍색 배경 적용 */
+        button{
+             background:pink;           
+        }
+
+        /* 선택자 중 아이디를 이용한 선택자는 #샵을 붙인다 */
+        #bt{
+           border:5px solid red; 
+        }
+        
+        /*선택자 중 이름을 이용한 선택자*/
+        button[name='btn'] {
+            background: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 인라인 방식은 해당 태그에 직접 스타일을 적용하는 방식 -->
+    <button style="background:red">나버튼</button>
+    <button style="background:red">나버튼</button>
+    <button style="background:red">나버튼</button>
+    <button style="background:red">나버튼</button>
+    <button style="background:red">나버튼</button>
+
+    <button>버튼</button>
+    <button>버튼</button>
+    <button>버튼</button>
+    <button id="bt" name="btn">버튼</button>
+    <button>버튼</button>
+    <button>버튼</button>
+    <button>버튼</button>
+    <button>버튼</button>
+    <button>버튼</button>
+    <button>버튼</button>
+    <button>버튼</button>
+
+</body>
+</html>
